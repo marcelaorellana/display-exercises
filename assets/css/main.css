@@ -65,3 +65,23 @@ body{
 .ejercicio3 .tercerP{
 	text-transform: uppercase;
 }
+/************************************/
+.ejercicio4 div {
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 50px;
+	width: 155px;
+	box-sizing: content-box;
+} 
+.ejercicio4 .primerP, .ejercicio4 .tercerP{
+	background-color: yellow;
+}
+.ejercicio4 .segundoP{
+	background-color: #ED2251;
+}
+.ejercicio4 p{
+	font-family: 'Montserrat', sans-serif;
+}
+.ejercicio4 .tercerP{
+	text-transform: uppercase;
+}
