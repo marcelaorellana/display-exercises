@@ -1,4 +1,4 @@
-*{
+*{ 
 	margin: 0;
 	padding: 0;
 }
@@ -11,17 +11,37 @@ body{
 	padding-bottom: 30px;
 	padding-left: 5px;
 	box-sizing: content-box;
-}
-.primerP, .tercerP{
+}   
+.ejercicio1 .primerP, .ejercicio1 .tercerP{
 	background-color: yellow;
 }
-.segundoP{
+.ejercicio1 .segundoP{
 	background-color: #ED2251;
 	border: 1px solid black;
 }
-p{
+.ejercicio1 p{
 	font-family: 'Montserrat', sans-serif;
 }
-.tercerP{
+.ejercicio1 .tercerP{
+	text-transform: uppercase;
+}
+/*****************/
+.ejercicio2 div {
+	display: block;
+	padding-bottom: 50px;
+	padding-left: 5px;
+	margin: 0 600px 20px 600px;
+	box-sizing: content-box;
+} 
+.ejercicio2 .primerP, .ejercicio2 .tercerP{
+	background-color: yellow;
+}
+.ejercicio2 .segundoP{
+	background-color: #ED2251;
+}
+.ejercicio2 p{
+	font-family: 'Montserrat', sans-serif;
+}
+.ejercicio2 .tercerP{
 	text-transform: uppercase;
 }
